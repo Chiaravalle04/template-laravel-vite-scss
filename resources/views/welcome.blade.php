@@ -1,27 +1,17 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.app')
 
-        <!--Favicon-->
-        <link rel="shortcut icon" type="image/png" href="{{ Vite::asset('resources/img/...') }}">
+@section('content')
 
-        <title>Laravel</title>
+    <div class="main-container">
 
-        <!-- Fonts -->
-
+        <img src="{{ Vite::asset('resources/img/laravel.png') }}" alt="">
         
-        <!--Vite-->
-        @vite('resources/js/app.js')
-
-
-        <!-- Styles -->
+        <img src="{{ Vite::asset('resources/img/vite.png') }}" alt="">
         
-    </head>
-    <body>
-       
-        <h1>Hello World</h1>
+        <img src="{{ Vite::asset('resources/img/sass.png') }}" alt="">
+        
+        <h1>Laravel - Vite - Sass | Template</h1>
 
-    </body>
-</html>
+    </div>
+
+@endsection
