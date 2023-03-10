@@ -1,6 +1,6 @@
-<h1>Laravel - Vite - Sass | Template</h1>
+<h1>Laravel - Vite - Scss | Template</h1>
 
-Passi da effettuare per UTILIZZARE questo template:
+<h2>Passi da effettuare per UTILIZZARE questo template:</h2>
 1. Aprire questa repository su github e cliccare sul pulsante `Use this template` > `Create a new repository`
 2. Clonare la repository appena creata su VS Code
 3. Aprire il terminale
@@ -11,7 +11,7 @@ Passi da effettuare per UTILIZZARE questo template:
 8. Aprire un secondo terminale
 9. In uno dei due terminali, eseguire il comando `php artisan serve`. Nell'altro, `npm run dev`
 
-Classi SCSS Flex:
+<h2>Classi SCSS Flex:</h2>
 - `.d-flex` = `display: flex;`
 - `.jc-center` = `justify-content: center;`
 - `.jc-space-b` = `justify-content: space-between;`
