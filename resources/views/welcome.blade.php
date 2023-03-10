@@ -4,6 +4,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!--Favicon-->
+        <link rel="shortcut icon" type="image/png" href="{{ Vite::asset('resources/img/...') }}">
+
         <title>Laravel</title>
 
         <!-- Fonts -->
